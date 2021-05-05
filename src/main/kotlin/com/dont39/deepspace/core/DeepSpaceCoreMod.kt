@@ -1,4 +1,4 @@
-package net.fabricmc.example
+package com.dont39.deepspace.core
 
 // For support join https://discord.gg/v6v4pMv
 

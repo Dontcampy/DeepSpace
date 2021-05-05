@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "deepspacecore",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Deep space core mod",
+  "description": "Minecraft deep space core mod.",
   "authors": [
-    "Me!"
+    "Dontcampy"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Dontcampy/DeepSpace",
+    "sources": "https://github.com/Dontcampy/DeepSpace"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/deepspacecore/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleModKt::init"
+      "com.dont39.deepspace.core.DeepSpaceCoreModKt::init"
     ]
   },
   "mixins": [

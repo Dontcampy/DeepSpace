@@ -1,11 +1,14 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "com.dont39.deepspace.core.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "DeepSpaceCoreMixin"
+  ],
+  "server": [
+    "DeepSpaceCoreMixin"
   ],
   "injectors": {
     "defaultRequire": 1
